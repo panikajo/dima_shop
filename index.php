@@ -5,4 +5,4 @@
  * Date: 12.12.2017
  * Time: 16:01
  */
-echo file_get_contents($header.php);
+echo file_get_contents(header.php);
