@@ -5,7 +5,11 @@
  * Date: 12.12.2017
  * Time: 16:01
  */
-include 'header.php';
-include "order.php";
-include 'footer.php';
- ?>
+
+$handle = readfile("header.php");
+$handle = readfile("order.php");
+$handle = readfile("footer.php");
+
+
+
+?>
