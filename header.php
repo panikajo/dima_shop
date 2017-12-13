@@ -1,8 +1,10 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: panikajo
- * Date: 12.12.2017
- * Time: 16:03
- */
-<h1>header<h1>
+<html>
+<head>
+<title>
+    Шапка сайта
+</title>
+</head>
+<body>
+<h1>Header</h1>
+</body>
+</html>

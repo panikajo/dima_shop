@@ -1,7 +1,10 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: panikajo
- * Date: 12.12.2017
- * Time: 16:03
- */
+<html>
+<head>
+    <title>
+        Низ сайта
+    </title>
+</head>
+<body>
+<h1>Footer</h1>
+</body>
+</html>

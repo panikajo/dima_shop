@@ -5,4 +5,7 @@
  * Date: 12.12.2017
  * Time: 16:01
  */
-echo file_get_contents(header.php);
+include 'header.php';
+include "order.php";
+include 'footer.php';
+ ?>
