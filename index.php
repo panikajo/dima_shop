@@ -6,10 +6,15 @@
  * Time: 16:01
  */
 
-$handle = readfile("header.php");
-$handle = readfile("order.php");
-$handle = readfile("footer.php");
+$r = readfile("header.php");
 
+$name = fopen("order.php", "r");
+while(!feof($name)) {
+    echo fgets($name);
+}
+
+$footer = file_get_contents("footer.php");
+echo $footer;
 
 
 ?>
