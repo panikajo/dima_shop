@@ -20,5 +20,4 @@ $category = file_get_contents("db/category.txt");
 echo $category;
 
 ?>
-
 <?php
