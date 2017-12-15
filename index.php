@@ -7,17 +7,16 @@
  */
 
 $r = readfile("header.php");
-
 $name = fopen("order.php", "r");
 while(!feof($name)) {
     echo fgets($name);
 }
-
+$c = readfile("category.php");
+$cat = file_get_contents("db/category.txt");
+$arr = explode("\n", $cat);
+foreach ($arr as $value => $key) {
+    echo $key."<br>";
+}
 $footer = file_get_contents("footer.php");
 echo $footer;
 
-$category = file_get_contents("db/category.txt");
-echo $category;
-
-?>
-<?php
