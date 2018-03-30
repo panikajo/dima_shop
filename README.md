@@ -1,2 +1,2 @@
 # dima_shop
-tested
+fwsfesfgit sta
